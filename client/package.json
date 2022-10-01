@@ -30,7 +30,7 @@
     "prepare": "cd .. && husky install client/.husky"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": [
+    "src/**/*.{js,jsx,ts,tsx,json}": [
       "npm run lint",
       "npm run prettier:write"
     ]
