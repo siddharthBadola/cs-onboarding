@@ -26,7 +26,8 @@
     "prettier:check-all": "npx prettier . --check",
     "prettier:check": "npx prettier  --check",
     "prettier:write-all": "npx prettier . --write",
-    "prettier:write": "npx prettier  --write"
+    "prettier:write": "npx prettier  --write",
+    "prepare": "cd .. && husky install client/.husky"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,ts,tsx}": [
