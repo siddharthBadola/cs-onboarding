@@ -1,0 +1,15 @@
+:root {
+  /* sizes */
+  --app-layout-max-width: 768px;
+
+  /* palette */
+  --color-primary-200: #b3aee3;
+  --color-primary-400: #847cc6;
+  --color-primary-600: #5a4ad1;
+
+  --color-gray-100: #e5eaf5;
+  --color-gray-200: #bdc5d6;
+  --color-gray-400: #9ba0ab;
+  --color-gray-600: #40434a;
+  --color-gray-800: #808896;
+}
